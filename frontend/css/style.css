@@ -1,0 +1,147 @@
+body {
+    /* Use a very light, clean background */
+    background: #f4f6f9; 
+    
+    /* Perfect Centering for the single card layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    /* Reset flex for pages with a separate header/footer (like profile.html) */
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+/* --- Navbar Styles (Specific to profile.html) --- */
+.navbar {
+    width: 100%;
+    /* Use the same light background for consistency */
+    background-color: #ffffff !important; 
+    /* Subtle shadow defined by Bootstrap, but let's ensure it's clean */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05); 
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #28a745; /* Brand name color matches the green theme */
+}
+
+/* Styling for the Logout Button to match the theme */
+#logoutBtn {
+    color: #28a745;
+    border-color: #28a745;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+#logoutBtn:hover {
+    color: #ffffff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+/* --- Card Styles (Applies to all pages) --- */
+.card {
+    /* Clean white background */
+    background-color: #ffffff;
+    
+    /* Modern, soft rounded corners */
+    border-radius: 10px;
+    
+    /* Remove default border and add a professional, subtle shadow */
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); 
+    
+    /* Accent border at the top is GREEN */
+    border-top: 5px solid #28a745; 
+}
+
+.card-body {
+    padding: 2.5rem; 
+}
+
+.card-title {
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 1.5rem !important;
+    text-align: center; 
+}
+
+/* --- Form and Input Styles (Applies to all pages) --- */
+.form-label {
+    font-weight: 500;
+    color: #495057;
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+}
+
+.form-control {
+    border-radius: 6px; 
+    padding: 12px 15px; 
+    border: 1px solid #ced4da;
+    transition: all 0.2s ease-in-out;
+}
+
+.form-control:focus {
+    /* Focus ring is GREEN */
+    border-color: #28a745; 
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.form-control[readonly] {
+    background-color: #f8f9fa; /* Slightly darker background for read-only fields */
+    cursor: default;
+}
+
+/* --- Button Styles (Primary Call to Action - Applies to all pages) --- */
+.btn-primary,
+#registerBtn, 
+#loginBtn, 
+#saveBtn {
+    /* Button is GREEN */
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 6px;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-primary:hover,
+#registerBtn:hover, 
+#loginBtn:hover, 
+#saveBtn:hover {
+    /* Darker green on hover */
+    background-color: #1e7e34 !important; 
+    border-color: #1e7e34 !important;
+    transform: translateY(-1px);
+}
+
+/* --- Footer Link (Applies to index.html and login.html) --- */
+.mt-3.text-center {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.mt-3.text-center a {
+    /* Link color is GREEN */
+    color: #28a745;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.mt-3.text-center a:hover {
+    text-decoration: underline;
+}
+
+/* --- Message/Alert Area (Applies to all pages) --- */
+#msg {
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
