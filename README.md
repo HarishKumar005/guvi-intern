@@ -106,3 +106,14 @@ Notes & Security
 - Add rate limiting for authentication endpoints.
 
 ---
+**Register page**
+<img width="1918" height="877" alt="image" src="https://github.com/user-attachments/assets/ca097485-e5dd-45a9-b96d-7bd2747495d4" />
+
+**Login page**
+<img width="1917" height="872" alt="image" src="https://github.com/user-attachments/assets/e0768cce-6d6f-4b19-bacb-06c79feb4b47" />
+
+**Profile page**
+<img width="1898" height="873" alt="image" src="https://github.com/user-attachments/assets/1c1145ca-6382-4a85-87ce-d1c2ee627e58" />
+<img width="1897" height="857" alt="image" src="https://github.com/user-attachments/assets/b704b397-0fb2-47ec-93c4-d5b59f0edf31" />
+<img width="1894" height="871" alt="image" src="https://github.com/user-attachments/assets/fc3707e7-acc0-474c-97fd-14801cd181c4" />
+
