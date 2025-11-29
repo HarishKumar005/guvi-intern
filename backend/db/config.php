@@ -3,8 +3,8 @@ return [
     'mysql' => [
         'host' => '127.0.0.1',
         'dbname' => 'guvi_intern',
-        'user' => 'user_name',
-        'pass' => 'password_of_db',
+        'user' => 'root',
+        'pass' => 'Harish@2005',
         'charset' => 'utf8mb4'
     ],
     'redis' => [
